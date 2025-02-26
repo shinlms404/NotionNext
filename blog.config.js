@@ -15,7 +15,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || "Charlie Chan", // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || "一个正在失业的咸鱼🐟💤", // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || "https://tangly1024.com", // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || "https://blog.shinlms404.top", // 网站地址
   KEYWORDS:
     process.env.NEXT_PUBLIC_KEYWORD ||
     "notion,blog,博客,shinlms404,JavaScript,js,面试,vue", // 网站关键词 英文逗号隔开
