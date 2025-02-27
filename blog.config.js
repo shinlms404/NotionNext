@@ -18,11 +18,14 @@ const BLOG = {
   LINK: process.env.NEXT_PUBLIC_LINK || "https://blog.shinlms404.top", // 网站地址
   KEYWORDS:
     process.env.NEXT_PUBLIC_KEYWORD ||
-    "notion,blog,博客,shinlms404,JavaScript,js,面试,vue", // 网站关键词 英文逗号隔开
+    "notion,blog,博客,shinlms404,Frontend Development,前端开发,Web Development,Web 开发,Tech Sharing,技术分享,开发经验,Development Experience,Code Notes,代码笔记,Interview Questions,面试题,Life Sharing,生活分享,js,Vue", // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || "/favicon.ico", // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || "", // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK:
     process.env.NEXT_PUBLIC_BEI_AN_LINK || "https://beian.miit.gov.cn/", // 备案查询链接，如果用了萌备等备案请在这里填写
+  WIDGET_PET: process.env.WIDGET_PET || false,
+  POST_URL_PREFIX: process.env.POST_URL_PREFIX || "p",
+  
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
@@ -64,7 +67,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    "Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉",
+    "哈喽,我是一名沉迷代码的程序猿,也是一位在职打拼的小伙伴,更是一位热爱美食的吃货,欢迎来到我的博客,一起探索技术与生活中的无限可能吧🎉",
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
