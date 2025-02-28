@@ -70,7 +70,9 @@ const BLOG = {
     "哈喽,我是一名沉迷代码的程序猿,也是一位在职打拼的小伙伴,更是一位热爱美食的吃货,欢迎来到我的博客,一起探索技术与生活中的无限可能吧🎉",
 
   // uuid重定向至 slug
-  UUID_REDIRECT: process.env.UUID_REDIRECT || false
+  UUID_REDIRECT: process.env.UUID_REDIRECT || false,
+
+  NEXT_PUBLIC_CLARITY_ID: "qgtb7skt7u"
 };
 
 module.exports = BLOG;
